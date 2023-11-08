@@ -1,3 +1,4 @@
+
 ![Devise Logo](https://raw.github.com/heartcombo/devise/master/devise.png)
 
 [![Code Climate](https://codeclimate.com/github/heartcombo/devise.svg)](https://codeclimate.com/github/heartcombo/devise)

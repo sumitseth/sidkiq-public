@@ -1,0 +1,307 @@
+repo_name: sumitseth/sidkiq-public
+report_id: b47d4147970155c5596d9dd9ef477425
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-15T14:02:46+00:00'
+requested_by: sumitseth
+provider: github
+branch: master
+detected_tools_count: 22
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public
+  detection_source: Repo Metadata
+- name: Rails
+  description: Web development that doesn't hurt
+  website_url: http://rubyonrails.org/
+  version: 6.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/990/x57_Lorv.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2021-01-16 19:57:45.000000000 Z
+- name: SQLite
+  description: A software library that implements a self-contained, serverless, zero-configuration,
+    transactional SQL database engine
+  website_url: http://www.sqlite.org/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1071/sqlite.jpg
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: José Valim
+  last_updated_on: 2010-02-16 13:31:49.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/.github/workflows/test.yml
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2021-01-29 19:56:28.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/devise.gemspec
+  detection_source: devise.gemspec
+  last_updated_by: José Valim
+  last_updated_on: 2010-02-01 15:32:36.000000000 Z
+- name: Twilio SendGrid
+  description: Email Delivery. Simplified.
+  website_url: http://sendgrid.com
+  open_source: false
+  hosted_saas: true
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/43/kQ_6nwmP.jpg
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/test/rails_app/config/environments/production.rb
+  detection_source: test/rails_app/config/environments/production.rb
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2013-01-23 01:01:51.000000000 Z
+- name: OmniAuth
+  description: OmniAuth is a flexible authentication system utilizing Rack middleware.
+  website_url: https://github.com/intridea/omniauth
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/1433/omniauth.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: José Valim
+  last_updated_on: 2010-02-16 13:31:49.000000000 Z
+- name: bcrypt
+  description: Bcrypt
+  package_url: https://rubygems.org/bcrypt
+  version: 3.1.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19054/default_2be036aaca5c71baf790e00f1ef80dd37a625905.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: devise.gemspec
+  last_updated_by: Lucas Mazza
+  last_updated_on: 2014-02-21 21:33:59.000000000 Z
+- name: mocha
+  description: Mocking and stubbing library with JMock/SchMock syntax
+  package_url: https://rubygems.org/mocha
+  version: 1.12.0
+  license: MIT,BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18834/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lucas Mazza
+  last_updated_on: 2014-06-24 13:22:26.000000000 Z
+- name: omniauth-facebook
+  description: Facebook OAuth2 Strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-facebook
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19539/default_218dae89c7df5d5855caf68241b819cfe024f92e.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2021-02-01 14:51:23.000000000 Z
+- name: omniauth-oauth2
+  description: An abstract OAuth2 strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-oauth2
+  version: 1.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18909/default_6011c3e13c0feeff577120981a21a5968e50756a.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2021-02-01 14:51:23.000000000 Z
+- name: omniauth-openid
+  description: OpenID strategy for OmniAuth
+  package_url: https://rubygems.org/omniauth-openid
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2021-02-01 14:51:23.000000000 Z
+- name: orm_adapter
+  description: Provides a single point of entry for using basic features of ruby ORMs
+  package_url: https://rubygems.org/orm_adapter
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19425/default_d8d9e269f3470c79700fe31e57a14ccc1424ff5a.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: devise.gemspec
+  last_updated_by: José Valim
+  last_updated_on: 2012-06-13 12:56:25.000000000 Z
+- name: rails-controller-testing
+  description: Extracting `assigns` and `assert_template` from ActionDispatch
+  package_url: https://rubygems.org/rails-controller-testing
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19298/default_665ed3fcb2a1ba0439337b543b18095155087d89.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2021-01-16 19:57:45.000000000 Z
+- name: railties
+  description: 'Rails internals: application bootup'
+  package_url: https://rubygems.org/railties
+  version: 6.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18847/default_49e8e438a279d3b7963273823890f9482ce83fb4.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: devise.gemspec
+  last_updated_by: Rafael Mendonça França
+  last_updated_on: 2019-06-12 20:10:13.000000000 Z
+- name: rdoc
+  description: RDoc produces HTML and command-line documentation for Ruby projects
+  package_url: https://rubygems.org/rdoc
+  version: 6.3.1
+  license: Ruby
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18829/default_ba8d7756589e5fc0164687950e3f091b32554546.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Rodrigo Flores
+  last_updated_on: 2011-07-02 04:33:34.000000000 Z
+- name: responders
+  description: A set of Rails responders to dry up your application
+  package_url: https://rubygems.org/responders
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19109/default_c404399f249c45bc71a2c704a4b9bc234dcaac3e.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2020-06-05 14:08:48.000000000 Z
+- name: sqlite3
+  description: This module allows Ruby programs to interface with the SQLite3 database
+    engine
+  package_url: https://rubygems.org/sqlite3
+  version: 1.4.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18820/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Carlos Antonio da Silva
+  last_updated_on: 2020-06-05 14:08:48.000000000 Z
+- name: timecop
+  description: A gem providing "time travel" and "time freezing" capabilities, making
+    it dead simple to test time-dependent code
+  package_url: https://rubygems.org/timecop
+  version: 0.9.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18861/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Stan Hu
+  last_updated_on: 2018-12-04 16:34:32.000000000 Z
+- name: warden
+  description: An authentication library compatible with all Rack-based frameworks
+  package_url: https://rubygems.org/warden
+  version: 1.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19223/default_a5189375c12a653724f506ba87c061fbf142989c.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: devise.gemspec
+  last_updated_by: José Valim
+  last_updated_on: 2013-07-14 18:39:46.000000000 Z
+- name: webrat
+  description: Webrat lets you quickly write expressive and robust acceptance tests
+    for a Ruby web application
+  package_url: https://rubygems.org/webrat
+  version: 0.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19139/default_8dfa87240818385496427db2d6489b2c70b1c02a.png
+  detection_source_url: https://github.com/sumitseth/sidkiq-public/blob/master/Gemfile.lock
+  detection_source: Gemfile
+  last_updated_by: Lucas Mazza
+  last_updated_on: 2014-02-25 17:25:55.000000000 Z
